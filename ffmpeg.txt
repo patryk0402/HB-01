@@ -1,0 +1,11 @@
+Install
+Raspbian or armv7/armv8-based Linux environments:
+sudo curl -Lf# https://github.com/homebridge/ffmpeg-for-homebridge/releases/latest/download/ffmpeg-alpine-arm32v7.tar.gz | sudo tar xzf - -C / --no-same-owner
+x64 or arm64 Linux:
+sudo curl -Lf# https://github.com/homebridge/ffmpeg-for-homebridge/releases/latest/download/ffmpeg-alpine-$(uname -m).tar.gz | sudo tar xzf - -C / --no-same-owner
+Intel or Apple Silicon macOS:
+sudo curl -Lf# https://github.com/homebridge/ffmpeg-for-homebridge/releases/latest/download/ffmpeg-darwin-$(uname -m).tar.gz | sudo tar xzfm - -C / --no-same-owner
+Windows:
+Download the ffmpeg.exe file from the releases page.
+
+Build Flags
